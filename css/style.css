@@ -100,6 +100,7 @@
 
 .paragraph-jumbo{
     width: calc(100% - 460px);
+    max-height: 300px;
 }
 
 .paragraph-jumbo p{
@@ -148,12 +149,153 @@
 
 /* central-section */
 .central-section{
-    width: 600px;
+    width: 750px;
     height: 2320px;
+
     margin: auto;
+    margin-top: 65px;
 
     background-color: rgb(43, 150, 226);
 }
+
+#h3 h3{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#radio-buttons{
+    margin-top: 15px;
+}
+
+#radio-buttons label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.radio{
+    margin-left: 10px;
+}
+
+/* colonne */
+#plans{
+    width: 100%;
+
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    /* test */
+    height: 560px;
+
+    background-color: aquamarine;
+
+    
+}
+ /* column-left */
+.column-left{
+    width: 30%;
+    /* test */
+    height: 540px;
+
+    background-color: darkgreen;
+
+    border: 1px solid #E6E6E7;
+}
+
+.column-left .destination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 5px;
+    padding-bottom: 5px;
+    
+    border-bottom: 1px solid #E6E6E7;
+}
+
+.destination span{
+    margin-left: 5px;
+}
+
+.offer{ 
+    background-color: red;
+
+    margin-left: 15px;
+    margin-top: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.offer h3{
+    font-size: 20px;
+}
+
+.offer .price{
+    margin-top: 15px;
+}
+
+.offer .period{
+    margin-top: 10px;
+}
+
+.services{
+    margin-top: 40px;
+}
+
+.services .services-row{
+    display: flex;
+    gap: 5px;
+
+    margin-top: 20px;
+}
+
+/* /column-left */
+
+/* column-center */
+.column-center{
+    width: 30%;
+    /* test */
+    height: 540px;
+
+    background-color: darkgreen;
+
+    border: 1px solid #E6E6E7;
+}
+.column-center .destination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 5px;
+    padding-bottom: 5px;
+    
+    border-bottom: 1px solid #E6E6E7;
+}
+/* /column-center */
+
+/* column-right */
+.column-right{
+    width: 30%;
+    /* test */
+    height: 540px;
+
+    background-color: darkgreen;
+
+    border: 1px solid #E6E6E7;
+}
+
+.column-right .destination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 5px;
+    padding-bottom: 5px;
+    
+    border-bottom: 1px solid #E6E6E7;
+}
+/* /column-right */
+/* /colonne */
 /* /central-section */
 
 /* image-section */
