@@ -150,12 +150,11 @@
 /* central-section */
 .central-section{
     width: 750px;
-    height: 2320px;
 
     margin: auto;
     margin-top: 65px;
 
-    background-color: rgb(43, 150, 226);
+    background-color: #7e0594;
 }
 
 #h3 h3{
@@ -184,18 +183,10 @@
 
     display: flex;
     justify-content: space-between;
-    /* test */
-
-    background-color: aquamarine;
-
-    
 }
  /* column-left */
 .column-left{
     width: 30%;
-    /* test */
-
-    background-color: darkgreen;
 
     border: 1px solid #E6E6E7;
 }
@@ -216,9 +207,8 @@
 }
 
 .offer{ 
-    background-color: red;
-
-    margin-left: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 20px;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -239,7 +229,7 @@
 .services{
     margin-top: 40px;
 
-    min-height: 170px;
+    min-height: 200px;
 }
 
 .services .services-row{
@@ -250,7 +240,21 @@
 }
 
 .button-column{
-    margin-top: 30px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.button-column button{
+    padding: 10px;
+
+    background-color: #2978F8;
+    border-color: #5F94F0;
+}
+
+.button-column a{
+    text-decoration: none;
+
+    color: white;
 }
 
 .buy{
@@ -272,9 +276,6 @@
 /* column-center */
 .column-center{
     width: 30%;
-    /* test */
-
-    background-color: darkgreen;
 
     border: 1px solid #E6E6E7;
 }
@@ -293,9 +294,6 @@
 /* column-right */
 .column-right{
     width: 30%;
-    /* test */
-
-    background-color: darkgreen;
 
     border: 1px solid #E6E6E7;
 }
@@ -320,9 +318,6 @@
 /* blocco 1 */
 #block-1{
     width: 100%;
-    height: 150px;
-
-    background-color: purple;
 
     margin-top: 40px;
 
@@ -331,23 +326,24 @@
 
 #head-block1{
     width: 100%;
-    background-color: darksalmon;
 
     text-align: center;
 
     padding: 5px;
+
+    border: 1px solid #E6E6E7;
 }
 
 #lower-block1{
     width: 100%;
 
     display: flex;
+
+    border: 1px solid #E6E6E7;
 }
 
 #block1-left{
     width: 70%;
-
-    background-color: crimson;
 
     padding-left: 10px;
     padding-top: 15px;
@@ -367,8 +363,6 @@
 #block1-right{
     width: 30%;
 
-    background-color: darkmagenta;
-
     padding-top: 20px;
 }
 
@@ -387,6 +381,7 @@
 }
 /* /blocco 1 */
 
+/* blocco 2 */
 #block-2{
     width: 100%;
 
@@ -410,7 +405,6 @@
 #block2-aside{
     width: 40%;
     height: 380px;
-    background-color: gold;
 
     font-family: Arial, Helvetica, sans-serif;
 
@@ -433,7 +427,79 @@
     text-decoration: none;
     color: black;
 }
+/* /blocco 2 */
 
+/* blocco 3 */
+#block-3{
+    width: 100%;
+
+    background-color: red;
+}
+
+#block-3 h3{
+    font-size: 30px;
+
+    padding: 20px;
+
+    margin-top: 80px;
+}
+
+#upper-row3{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-b3{
+    width: 31%;
+
+    border: 1px solid black;
+}
+
+.img-b3{
+    height: 50%;
+}
+
+.img-b3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.paragraph-b3{
+    height: 50%;
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.paragraph-b3 h4{
+    font-size: 20px;
+}
+
+.paragraph-b3 p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#lower-row3{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+/* /blocco 3 */
+
+/* blocco 4 */
+#block-4{
+    width: 100%;
+    height: 250px;
+
+    background-color: rgb(0, 255, 30);
+}
+/* /blocco 4 */
 /* /central-section */
 
 /* image-section */
