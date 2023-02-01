@@ -513,17 +513,171 @@
 /* image-section */
 .image-section{
     width: 100%;
-    height: 560px;
 
-    background-color: chartreuse;
+    background-color: #F2F2F2;
+}
+
+#upper-section{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+#big-square-left{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+
+    background-color: red;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#big-square-right{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+
+    background-color: blue;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 50%;
+    height: 50%;
+
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img-inside{
+    width: 70%;
+    height: 20%;
+}
+
+.container-img-inside img{
+    width: 100%;
+    height: 100%;
+
+    filter: invert(1);
+}
+
+#designit {
+    height: 80%;
+    fill: rgb(255, 255, 255);
+}
+
+#arizona{
+    height: 150%;
+}
+
+#florida{
+    height: 70%;
+}
+
+#planet{
+    height: 130%;
+}
+
+#clear{
+    height: 150%;
+}
+
+#central-quare-img{
+    max-width: 300px;
+    
+    margin-top: 30px;
+}
+
+#central-quare-img img{
+    max-width: 200px; 
+}
+
+#big-square-center p{
+    max-width: 350px;
+
+    margin-top: 40px;
+
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bsc-text{
+    margin-top: 30px;
+
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lower-section{
+    background-color: #B8D1E6;
+}
+
+#container-lower{
+    display: flex;
+    justify-content: space-between;
+
+    width: 750px; 
+    margin: auto;
+}
+
+#titol-lower{
+    margin: 60px;
+}
+
+#titol-lower h3{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#button-lower{
+
+}
+
+#button-lower button{
+    padding: 5px;
+    border-color: white;
+    min-width: 230px;
+    background-color: white;
+
+    margin-top: 100px;
+}
+
+#button-lower button a{
+    text-decoration: none;
+    color: black;
 }
 /* /image-section */
 
 /* FAQ */
 .faq{
     width: 100%;
-    height: 420px;
+    margin-bottom: 80px;
 }
+
+#container-faq{
+    width: 600px;
+    margin: auto;
+}
+
+#container-faq h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#container-faq div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 /* /FAQ */
 /* /main */
 
